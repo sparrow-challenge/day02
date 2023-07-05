@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81EE06EE2A55703800BFE46E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EE06ED2A55703800BFE46E /* AppDelegate.swift */; };
+		81EE06F02A55703900BFE46E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EE06EF2A55703900BFE46E /* SceneDelegate.swift */; };
+		81EE06F22A55703900BFE46E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EE06F12A55703900BFE46E /* ViewController.swift */; };
+		81EE06F52A55703900BFE46E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81EE06F32A55703900BFE46E /* Main.storyboard */; };
+		81EE06F72A55703B00BFE46E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81EE06F62A55703B00BFE46E /* Assets.xcassets */; };
+		81EE06FA2A55703B00BFE46E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81EE06F82A55703B00BFE46E /* LaunchScreen.storyboard */; };
+		81EE07052A55703C00BFE46E /* ThreeButtonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EE07042A55703C00BFE46E /* ThreeButtonsTests.swift */; };
+		81EE070F2A55703C00BFE46E /* ThreeButtonsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EE070E2A55703C00BFE46E /* ThreeButtonsUITests.swift */; };
+		81EE07112A55703C00BFE46E /* ThreeButtonsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EE07102A55703C00BFE46E /* ThreeButtonsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81EE07012A55703B00BFE46E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81EE06E22A55703800BFE46E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81EE06E92A55703800BFE46E;
+			remoteInfo = ThreeButtons;
+		};
+		81EE070B2A55703C00BFE46E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81EE06E22A55703800BFE46E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81EE06E92A55703800BFE46E;
+			remoteInfo = ThreeButtons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81EE06EA2A55703800BFE46E /* ThreeButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81EE06ED2A55703800BFE46E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81EE06EF2A55703900BFE46E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		81EE06F12A55703900BFE46E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81EE06F42A55703900BFE46E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81EE06F62A55703B00BFE46E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81EE06F92A55703B00BFE46E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81EE06FB2A55703B00BFE46E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81EE07002A55703B00BFE46E /* ThreeButtonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeButtonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81EE07042A55703C00BFE46E /* ThreeButtonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeButtonsTests.swift; sourceTree = "<group>"; };
+		81EE070A2A55703C00BFE46E /* ThreeButtonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeButtonsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81EE070E2A55703C00BFE46E /* ThreeButtonsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeButtonsUITests.swift; sourceTree = "<group>"; };
+		81EE07102A55703C00BFE46E /* ThreeButtonsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeButtonsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81EE06E72A55703800BFE46E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81EE06FD2A55703B00BFE46E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81EE07072A55703C00BFE46E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81EE06E12A55703800BFE46E = {
+			isa = PBXGroup;
+			children = (
+				81EE06EC2A55703800BFE46E /* ThreeButtons */,
+				81EE07032A55703C00BFE46E /* ThreeButtonsTests */,
+				81EE070D2A55703C00BFE46E /* ThreeButtonsUITests */,
+				81EE06EB2A55703800BFE46E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81EE06EB2A55703800BFE46E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81EE06EA2A55703800BFE46E /* ThreeButtons.app */,
+				81EE07002A55703B00BFE46E /* ThreeButtonsTests.xctest */,
+				81EE070A2A55703C00BFE46E /* ThreeButtonsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81EE06EC2A55703800BFE46E /* ThreeButtons */ = {
+			isa = PBXGroup;
+			children = (
+				81EE06ED2A55703800BFE46E /* AppDelegate.swift */,
+				81EE06EF2A55703900BFE46E /* SceneDelegate.swift */,
+				81EE06F12A55703900BFE46E /* ViewController.swift */,
+				81EE06F32A55703900BFE46E /* Main.storyboard */,
+				81EE06F62A55703B00BFE46E /* Assets.xcassets */,
+				81EE06F82A55703B00BFE46E /* LaunchScreen.storyboard */,
+				81EE06FB2A55703B00BFE46E /* Info.plist */,
+			);
+			path = ThreeButtons;
+			sourceTree = "<group>";
+		};
+		81EE07032A55703C00BFE46E /* ThreeButtonsTests */ = {
+			isa = PBXGroup;
+			children = (
+				81EE07042A55703C00BFE46E /* ThreeButtonsTests.swift */,
+			);
+			path = ThreeButtonsTests;
+			sourceTree = "<group>";
+		};
+		81EE070D2A55703C00BFE46E /* ThreeButtonsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81EE070E2A55703C00BFE46E /* ThreeButtonsUITests.swift */,
+				81EE07102A55703C00BFE46E /* ThreeButtonsUITestsLaunchTests.swift */,
+			);
+			path = ThreeButtonsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81EE06E92A55703800BFE46E /* ThreeButtons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81EE07142A55703C00BFE46E /* Build configuration list for PBXNativeTarget "ThreeButtons" */;
+			buildPhases = (
+				81EE06E62A55703800BFE46E /* Sources */,
+				81EE06E72A55703800BFE46E /* Frameworks */,
+				81EE06E82A55703800BFE46E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreeButtons;
+			productName = ThreeButtons;
+			productReference = 81EE06EA2A55703800BFE46E /* ThreeButtons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81EE06FF2A55703B00BFE46E /* ThreeButtonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81EE07172A55703C00BFE46E /* Build configuration list for PBXNativeTarget "ThreeButtonsTests" */;
+			buildPhases = (
+				81EE06FC2A55703B00BFE46E /* Sources */,
+				81EE06FD2A55703B00BFE46E /* Frameworks */,
+				81EE06FE2A55703B00BFE46E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81EE07022A55703B00BFE46E /* PBXTargetDependency */,
+			);
+			name = ThreeButtonsTests;
+			productName = ThreeButtonsTests;
+			productReference = 81EE07002A55703B00BFE46E /* ThreeButtonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81EE07092A55703C00BFE46E /* ThreeButtonsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81EE071A2A55703C00BFE46E /* Build configuration list for PBXNativeTarget "ThreeButtonsUITests" */;
+			buildPhases = (
+				81EE07062A55703C00BFE46E /* Sources */,
+				81EE07072A55703C00BFE46E /* Frameworks */,
+				81EE07082A55703C00BFE46E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81EE070C2A55703C00BFE46E /* PBXTargetDependency */,
+			);
+			name = ThreeButtonsUITests;
+			productName = ThreeButtonsUITests;
+			productReference = 81EE070A2A55703C00BFE46E /* ThreeButtonsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81EE06E22A55703800BFE46E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					81EE06E92A55703800BFE46E = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					81EE06FF2A55703B00BFE46E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 81EE06E92A55703800BFE46E;
+					};
+					81EE07092A55703C00BFE46E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 81EE06E92A55703800BFE46E;
+					};
+				};
+			};
+			buildConfigurationList = 81EE06E52A55703800BFE46E /* Build configuration list for PBXProject "ThreeButtons" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81EE06E12A55703800BFE46E;
+			productRefGroup = 81EE06EB2A55703800BFE46E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81EE06E92A55703800BFE46E /* ThreeButtons */,
+				81EE06FF2A55703B00BFE46E /* ThreeButtonsTests */,
+				81EE07092A55703C00BFE46E /* ThreeButtonsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81EE06E82A55703800BFE46E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81EE06FA2A55703B00BFE46E /* LaunchScreen.storyboard in Resources */,
+				81EE06F72A55703B00BFE46E /* Assets.xcassets in Resources */,
+				81EE06F52A55703900BFE46E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81EE06FE2A55703B00BFE46E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81EE07082A55703C00BFE46E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81EE06E62A55703800BFE46E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81EE06F22A55703900BFE46E /* ViewController.swift in Sources */,
+				81EE06EE2A55703800BFE46E /* AppDelegate.swift in Sources */,
+				81EE06F02A55703900BFE46E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81EE06FC2A55703B00BFE46E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81EE07052A55703C00BFE46E /* ThreeButtonsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81EE07062A55703C00BFE46E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81EE070F2A55703C00BFE46E /* ThreeButtonsUITests.swift in Sources */,
+				81EE07112A55703C00BFE46E /* ThreeButtonsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81EE07022A55703B00BFE46E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81EE06E92A55703800BFE46E /* ThreeButtons */;
+			targetProxy = 81EE07012A55703B00BFE46E /* PBXContainerItemProxy */;
+		};
+		81EE070C2A55703C00BFE46E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81EE06E92A55703800BFE46E /* ThreeButtons */;
+			targetProxy = 81EE070B2A55703C00BFE46E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81EE06F32A55703900BFE46E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81EE06F42A55703900BFE46E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81EE06F82A55703B00BFE46E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81EE06F92A55703B00BFE46E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81EE07122A55703C00BFE46E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81EE07132A55703C00BFE46E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81EE07152A55703C00BFE46E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ThreeButtons/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tinkoff.ThreeButtons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81EE07162A55703C00BFE46E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ThreeButtons/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tinkoff.ThreeButtons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81EE07182A55703C00BFE46E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tinkoff.ThreeButtonsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreeButtons.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ThreeButtons";
+			};
+			name = Debug;
+		};
+		81EE07192A55703C00BFE46E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tinkoff.ThreeButtonsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreeButtons.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ThreeButtons";
+			};
+			name = Release;
+		};
+		81EE071B2A55703C00BFE46E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tinkoff.ThreeButtonsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThreeButtons;
+			};
+			name = Debug;
+		};
+		81EE071C2A55703C00BFE46E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tinkoff.ThreeButtonsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThreeButtons;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81EE06E52A55703800BFE46E /* Build configuration list for PBXProject "ThreeButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81EE07122A55703C00BFE46E /* Debug */,
+				81EE07132A55703C00BFE46E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81EE07142A55703C00BFE46E /* Build configuration list for PBXNativeTarget "ThreeButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81EE07152A55703C00BFE46E /* Debug */,
+				81EE07162A55703C00BFE46E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81EE07172A55703C00BFE46E /* Build configuration list for PBXNativeTarget "ThreeButtonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81EE07182A55703C00BFE46E /* Debug */,
+				81EE07192A55703C00BFE46E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81EE071A2A55703C00BFE46E /* Build configuration list for PBXNativeTarget "ThreeButtonsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81EE071B2A55703C00BFE46E /* Debug */,
+				81EE071C2A55703C00BFE46E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81EE06E22A55703800BFE46E /* Project object */;
+}
